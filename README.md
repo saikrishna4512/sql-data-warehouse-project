@@ -248,12 +248,12 @@ tests/quality_checks.sql
 
 ---
 
-## Related Portfolio Projects
+## Upcoming Related Portfolio Projects
 
 | Project | Stack | Link |
 |---|---|---|
-| Databricks Medallion Pipeline | PySpark · Delta Lake · Azure · DP-750 | *(link)* |
-| Vehicle Tracking + Driver Behaviour Analytics | ADF · Databricks · Azure · Power BI | *(link)* |
+| Databricks Medallion Pipeline | PySpark · Delta Lake · Azure · DP-750 | N/A |
+| Vehicle Tracking + Driver Behaviour Analytics | ADF · Databricks · Azure · Power BI | N/A |
 
 ---
 

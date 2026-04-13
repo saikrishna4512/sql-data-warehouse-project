@@ -50,3 +50,29 @@ ON c.customer_key = f.customer_key
 LEFT JOIN gold.dim_products p
 ON p.product_key = f.product_key
 WHERE p.product_key IS NULL OR c.customer_key IS NULL  
+
+
+-- Customers missing in dimension
+SELECT *
+FROM gold.fact_sales f
+LEFT JOIN gold.dim_customers c
+    ON f.customer_key = c.customer_key
+WHERE c.customer_key IS NULL;
+
+-- Products missing in dimension
+SELECT *
+FROM gold.fact_sales f
+LEFT JOIN gold.dim_products p
+    ON f.product_key = p.product_key
+WHERE p.product_key IS NULL;
+
+
+-- Check for invalid sales values
+SELECT *
+FROM gold.fact_sales
+WHERE sales_amount <= 0;
+
+-- Order date should not be in future
+SELECT *
+FROM gold.fact_sales
+WHERE order_date > GETDATE();

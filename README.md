@@ -272,6 +272,9 @@ This warehouse supports:
 **Sai Krishna Reddy Kaithi**
 Aspiring Data Engineer | SQL | Azure | Databricks
 
+LinkedIn: https://www.linkedin.com/in/sai-krishna-reddy-kaithi-14008b27a/
+
+This project is published for learning and portfolio purposes.
 ---
 
 ## ⭐ Final Note
